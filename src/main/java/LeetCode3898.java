@@ -7,7 +7,7 @@ void main() {
     IO.println(Arrays.toString(ans));
 }
 
-static public int[] findDegree(int[][] matrix) {
+private static int[] findDegree(int[][] matrix) {
     int[] degree;
     degree = new int[matrix.length];
     int soma = 0;
